@@ -1,11 +1,71 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: gilroy;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
 }
 
-html.body{
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: #1f1f1f;
+  padding: 4px;
+}
+
+/* practice 1 and 2  */
+/* 
+#box1 {
+  height: 100px;
+  width: 100px;
+  background: #1b7316;
+}
+
+#tipsy{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    white-space: nowrap;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  h4 {
+    list-style: none;
+    margin: 0 10px;
+  }
+} */
+
+#box1 {
+  height: 100%;
+  width: 100%;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box2 {
+  height: 100%;
+  width: 100%;
+  background: #5f5f5f;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+#box2 > h1 {
+  font-size: 35vw;
+}
+
+#box3 {
+  height: 100%;
+  width: 100%;
+  background: #090909;
 }
